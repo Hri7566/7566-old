@@ -65,6 +65,7 @@ rl.on('line', function (line) {
         let cmd = args[0].toLowerCase();
         let argcat = line.substring(cmd.length).trim();
         
+        //* This is for console commands (the ones that start with "//").
         switch (cmd.split(prefix).slice(1).join(prefix).toLowerCase()) {
             case "preban":
                 if (argcat) {
@@ -81,7 +82,7 @@ rl.on('line', function (line) {
             case "kick":
                 if (argcat) {
                     if (bot.client.channel.crown.userId == "f0747881366aaef3c289ec75") {
-                        bot.client.sendArray([{m:'a', message:``}]);
+                        bot.client.sendArray([{m:'a', message:`/kickban 60 ${argcat}`}]);
                     }
                 }
                 break;

@@ -6,3 +6,7 @@ log.txt
 
 # Node
 node_modules/
+.env
+
+# 7566
+.randkey
