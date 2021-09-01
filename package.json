@@ -4,7 +4,7 @@
   "description": "General bot",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon server.js",
+    "test": "nodemon",
     "start": "node ."
   },
   "repository": "git+https://github.com/Hri7566/hri-bot.git",
@@ -13,5 +13,9 @@
   "bugs": {
     "url": "https://github.com/Hri7566/hri-bot/issues"
   },
-  "homepage": "https://github.com/Hri7566/hri-bot#readme"
+  "homepage": "https://github.com/Hri7566/hri-bot#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ws": "^8.2.1"
+  }
 }
