@@ -4,9 +4,8 @@
   "description": "General bot",
   "main": "server.js",
   "scripts": {
-    "test": "screen sudo nodemon server.js --auto-restart",
-    "start": "sudo node server.js",
-    "stop": "pkill --signal SIGINT 7566"
+    "test": "nodemon server.js",
+    "start": "node server.js"
   },
   "repository": "git+https://github.com/Hri7566/hri-bot.git",
   "author": "Hri7566",
