@@ -2,10 +2,10 @@
   "name": "hri-bot",
   "version": "3.10.4",
   "description": "General bot",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "nodemon server.js",
-    "start": "node server.js"
+    "start": "node ."
   },
   "repository": "git+https://github.com/Hri7566/hri-bot.git",
   "author": "Hri7566",
