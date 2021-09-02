@@ -15,6 +15,7 @@
   },
   "homepage": "https://github.com/Hri7566/hri-bot#readme",
   "dependencies": {
+    "chalk": "^4.1.2",
     "dotenv": "^10.0.0",
     "ws": "^8.2.1"
   }
